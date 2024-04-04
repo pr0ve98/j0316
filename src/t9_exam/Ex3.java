@@ -6,8 +6,7 @@ import java.util.TreeSet;
 public class Ex3 {
 	public static void main(String[] args) {
 		TreeSet<Integer> lotto = new TreeSet<>();
-		
-		for(int i=0; i<6; i++) lotto.add((int)(Math.random()*45)+1);
+		while(lotto.size() < 6) lotto.add((int)(Math.random()*45)+1);
 		System.out.println("이번주 로또 번호는: "+lotto);
 	}
 }

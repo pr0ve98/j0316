@@ -11,7 +11,7 @@ import java.util.Map;
 public class T1_Basic {
 	public static void main(String[] args) {
 //		HashMap<Integer, String> map = new HashMap<Integer, String>();
-		Map<Integer, String> map = new HashMap<Integer, String>();
+		Map<Integer, String> map = new HashMap<>();
 		
 		System.out.println("1. 크기: "+map.size());
 		System.out.println("1. toString: "+map); // 맵 계열은 중괄호로 나온다 {}
